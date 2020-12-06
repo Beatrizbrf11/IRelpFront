@@ -1,0 +1,23 @@
+  <div *ngIf="registro">
+    <div>
+        <label>ID: </label> {{registro.id}}
+    </div>
+    <div>
+        <label>Descrição: </label> {{registro.descricao}}
+    </div>
+    <div>
+        <label>Despesa: </label> {{registro.despesa}}
+    </div>
+    <div>
+        <label>Imagem do Registro: </label> {{registro.imagem}}
+    </div>
+    <div>
+        <label>Tipo do Registro: </label> {{registro.tipo}}
+    </div>
+    <div>
+        <label>Data de Criação: </label> {{registro.dataCriacao}}
+    </div>
+
+    <span class="button is-small btn-danger" (click)='deleteRegistro(registro.id)'>Delete</span>
+
+    <hr/>
