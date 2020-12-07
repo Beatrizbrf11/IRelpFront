@@ -1,0 +1,12 @@
+{
+    "/v1" : {
+        "target" : {
+            "host": "receitadespesaservice",
+            "port": 8080,
+            "protocol": "http:"
+        },
+        "secure" : false,
+        "logLevel" : "debug",
+        "changeOrigin": true
+    }
+}
